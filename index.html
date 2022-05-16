@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>RTF Converter</title>
 </head>
 <body>
-    <div>
-        <form>
-            <label>Enter your RTF text here</label>
-            <textarea id="RTF"></textarea>
-            <button id="submit">Submit</button>
-        </form>
-    </div>
-    <div>
-        <h2>Your CSV Data:</h2>
-        <div id="formatted-data"></div>
-    </div>
+    <main>
+        <div class="form">
+            <form>
+                <label>Enter your RTF text here</label>
+                <textarea id="RTF"></textarea>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div class="output">
+            <h2>Your CSV Data:</h2>
+            <div id="formatted-data"></div>
+        </div>
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>
