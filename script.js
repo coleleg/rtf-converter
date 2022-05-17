@@ -13,7 +13,6 @@ function exec() {
     // turning str into an array of each 'CSV' entry
     str = str.split(' }}');
 
-
     let m;
     let matches = [];
 
@@ -26,7 +25,7 @@ function exec() {
         while (m = regex.exec(str[i])) {
             m.forEach((match, groupIndex) => {
                 if (groupIndex === 1) {
-                    join = join + match;
+                    join = join + ' ' + match;
                 }
             
             })

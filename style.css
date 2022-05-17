@@ -33,3 +33,7 @@ button {
     display: block;
     margin-right: 3vw;
 }
+
+#format {
+    font-weight: bold;
+}
