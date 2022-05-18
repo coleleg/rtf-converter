@@ -1,6 +1,5 @@
 # rtf-converter
 
-**Link**
 [GitHub Pages](https://coleleg.github.io/rtf-converter) 
 
 
